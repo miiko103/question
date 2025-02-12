@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: rgb(194, 115, 201);
+    padding: 20px;
+}
+
+.message {
+    width: 90%;
+    max-width: 400px;
+    background-color: #cf95eb;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(212, 80, 102);
+}
+
+h4 {
+    margin-top: 5px;
+    font-family: cursive, serif;
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(212, 80, 102);
+    border: none;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .message {
+        padding: 10px;
+    }
+}
